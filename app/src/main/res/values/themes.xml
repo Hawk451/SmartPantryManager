@@ -1,9 +1,8 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SmartPantryManager" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
-
-    <style name="Theme.SmartPantryManager" parent="Base.Theme.SmartPantryManager" />
+<resources>
+    <!--
+        NoActionBar because every screen supplies its own MaterialToolbar
+        (setSupportActionBar would crash if the theme also had an action bar).
+        DayNight switches to dark colours automatically in dark mode.
+    -->
+    <style name="Theme.SmartPantry" parent="Theme.Material3.DayNight.NoActionBar" />
 </resources>
