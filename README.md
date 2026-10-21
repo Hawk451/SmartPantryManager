@@ -134,7 +134,7 @@ app/src/test/java/com/example/smartpantrymanager/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/<your-username>/SmartPantryManager.git
+   git clone https://github.com/Hawk451/SmartPantryManager.git
    ```
 2. Open the folder in Android Studio (**File → Open**) and wait for Gradle sync to finish.
 3. Check that `app/build.gradle.kts` contains the Room dependencies:
